@@ -7,7 +7,7 @@ public class PhoneValidation {
     public PhoneValidation(String phoneNumber) {
 
         phoneNumber = prepareNumber(phoneNumber);
-        checkNumber(phoneNumber);
+       // checkNumber(phoneNumber);
 
     }
 
@@ -17,7 +17,7 @@ public class PhoneValidation {
         return phoneNumber;
     }
 
-    private String checkNumber(String phoneNumber) throws RuntimeException{
-        if(phoneNumber.contains("+0"))  throw new RuntimeException();
-    }
+//    private String checkNumber(String phoneNumber) throws RuntimeException{
+//        if(phoneNumber.contains("+0"))  throw new RuntimeException();
+//    }
 }
